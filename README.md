@@ -1,4 +1,4 @@
-<![CDATA[# 🤖 VIRA AI — Sistema Multi-Agente de Marketing para Campuslands AI Academy
+# 🤖 VIRA AI — Sistema Multi-Agente de Marketing para Campuslands AI Academy
 
 > **V**irtual **I**ntelligent **R**esource **A**gent — Versión 2.1  
 > Última actualización: 30 de junio de 2026
@@ -496,9 +496,9 @@ Proyecto interno de **Campuslands AI Academy**. Uso exclusivo del equipo de mark
 
 ## 👨‍💻 Autor
 
-Desarrollado por el equipo de IA de Campuslands como parte de la estrategia de automatización de marketing digital.
+Desarrollado por Gustavo Navarro.
 
 ---
 
 > *"Formar sin migrar"* — Campuslands AI Academy 🇨🇴
-]]>
+

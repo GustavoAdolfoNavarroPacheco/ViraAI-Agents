@@ -1,0 +1,23 @@
+{
+  "sources": {
+    "VideoBase_SinEditar": "C:/Users/adolf/OneDrive/Documents/Agente AI - Claude/videos/VideoBase_SinEditar.mp4"
+  },
+  "grade": "neutral_punch",
+  "ranges": [
+    { "source": "VideoBase_SinEditar", "start": 196.66, "end": 203.24, "note": "Q1 setup" },
+    { "source": "VideoBase_SinEditar", "start": 203.84, "end": 207.90, "note": "intro respuesta" },
+    { "source": "VideoBase_SinEditar", "start": 208.52, "end": 219.68, "note": "historia acercamiento" },
+    { "source": "VideoBase_SinEditar", "start": 220.18, "end": 229.02, "note": "dialogo calle" },
+    { "source": "VideoBase_SinEditar", "start": 229.52, "end": 236.58, "note": "remate pistola" },
+    { "source": "VideoBase_SinEditar", "start": 237.08, "end": 244.00, "note": "reaccion" },
+    { "source": "VideoBase_SinEditar", "start": 488.34, "end": 490.60, "note": "metro Q" },
+    { "source": "VideoBase_SinEditar", "start": 491.32, "end": 493.06, "note": "metro A" },
+    { "source": "VideoBase_SinEditar", "start": 494.62, "end": 496.72, "note": "puerta metro" },
+    { "source": "VideoBase_SinEditar", "start": 519.82, "end": 523.30, "note": "paleta de conejo" },
+    { "source": "VideoBase_SinEditar", "start": 560.56, "end": 566.38, "note": "closing Q" },
+    { "source": "VideoBase_SinEditar", "start": 568.16, "end": 576.00, "note": "cierre pt1" },
+    { "source": "VideoBase_SinEditar", "start": 577.94, "end": 582.00, "note": "cierre pt2" }
+  ],
+  "overlays": [],
+  "subtitles": null
+}

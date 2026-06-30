@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "project": "PromptEngineering Video 10 - few-shot (dual-source, YouTube long-form)",
+  "fps": 30,
+  "resolution": "1920x1080",
+  "pip_offset_cam_minus_pan": 361.4,
+  "grade": "neutral_punch",
+  "loudnorm": "I=-14:TP=-1:LRA=11",
+  "sources": {
+    "Cam": "C:/Users/adolf/OneDrive/Documents/Agente AI - Claude/videos/PromptEngineering Video 10 Cam.mp4",
+    "Pantalla": "C:/Users/adolf/OneDrive/Documents/Agente AI - Claude/videos/PromptEngineering Video 10 Pantalla.mp4"
+  },
+  "logo": "C:/Users/adolf/OneDrive/Documents/Agente AI - Claude/context/img-creator/ia-academy-logo.png",
+  "segments": [
+    {"id":"01_promise","src":"Cam","layout":"full","start":19.20,"end":26.00,"beat":"HOOK","sub":"Y hoy vamos a cumplir esa promesa y le vamos a poner un nombre tecnico como debe ser: few-shot."},
+    {"id":"02_analogy","src":"Cam","layout":"full","start":34.10,"end":44.50,"beat":"WHY","sub":"Como le describes a alguien tu estilo de escribir? Es complejo. Pero si le muestras un ejemplo, lo entiende en un segundo. Con la IA pasa exactamente lo mismo."},
+    {"id":"03_definition","src":"Cam","layout":"full","start":66.34,"end":74.88,"beat":"DEF","sub":"Few-shot es completamente lo contrario: darle a la IA uno o varios ejemplos de lo que esperas junto con tu prompt."},
+    {"id":"04_show","src":"Cam","layout":"full","start":76.72,"end":80.40,"beat":"DEF","sub":"La logica es ensenar mostrando, no describiendo."},
+    {"id":"05_naming","src":"Cam","layout":"full","start":144.10,"end":150.72,"beat":"NAMING","sub":"Shot es cada ejemplo que le das. Cero ejemplos: zero-shot. Unos pocos ejemplos: few-shot."},
+    {"id":"06_misc_setup","src":"Cam","layout":"full","start":162.54,"end":172.30,"beat":"MISCONCEPTION","sub":"Ojo, aqui viene lo mas importante del video. Es donde mucha gente se quedo con la informacion vieja de hace unos anos."},
+    {"id":"07_misconception","src":"Cam","layout":"full","start":185.40,"end":202.66,"beat":"MISCONCEPTION","sub":"Hace unos anos se creia que darle ejemplos a la IA la hacia razonar mejor. Eso era cierto con los modelos de aquel entonces, pero los modelos hoy ya razonan muy bien por su cuenta."},
+    {"id":"08_whatfor_a","src":"Cam","layout":"full","start":204.06,"end":215.40,"beat":"PURPOSE","sub":"Entonces, para que sirve el few-shot hoy? Para algo muy concreto: controlar la forma de la respuesta."},
+    {"id":"09_whatfor_b","src":"Cam","layout":"full","start":217.50,"end":223.50,"beat":"PURPOSE","sub":"Controlar el formato exacto, el estilo, la voz, la estructura de salida."},
+    {"id":"10_setup_a","src":"Cam","layout":"full","start":279.16,"end":290.08,"beat":"DEMO_SETUP","sub":"Te lo voy a mostrar con un ejemplo sencillo. En consultoria, una de las cosas que mas se hace es escribirle a los prospectos que quedaron en: lo voy a pensar y te aviso."},
+    {"id":"11_setup_b","src":"Cam","layout":"full","start":340.68,"end":347.49,"beat":"DEMO_SETUP","sub":"Vamos a ver que saca la IA sin darle un ejemplo y dandole un ejemplo de lo que yo quiero."},
+    {"id":"12_zs_prompt","src":"Pantalla","layout":"pip","start":8.42,"end":13.80,"beat":"DEMO_ZS","sub":"Escribeme un mensaje de seguimiento para un prospecto que tuvo una reunion conmigo y quedo en pensarlo."},
+    {"id":"13_zs_response","src":"Pantalla","layout":"pip","start":17.46,"end":22.60,"beat":"DEMO_ZS","sub":"Aqui tienes un mensaje profesional, cercano y sin presionar. Hola, como estas?"},
+    {"id":"14_zs_critique","src":"Pantalla","layout":"pip","start":40.60,"end":47.30,"beat":"DEMO_ZS","sub":"Esta bien escrito, pero no es mio: es supergenerico. De verdad parece escrito por IA, porque lo es."},
+    {"id":"15_ask_example","src":"Pantalla","layout":"pip","start":76.21,"end":78.40,"beat":"DEMO_FS","sub":"Que pasa si le doy un ejemplo?"},
+    {"id":"16_fs_instruct","src":"Pantalla","layout":"pip","start":180.88,"end":199.78,"beat":"DEMO_FS","sub":"Siguiendo exactamente ese estilo, el tono, la longitud, la forma de cerrar, escribeme un mensaje para una prospecta llamada Daniela, que me dijo que su equipo pierde varias horas al dia respondiendo correos repetitivos y quedo en pensarlo."},
+    {"id":"17_fs_key","src":"Pantalla","layout":"pip","start":200.34,"end":204.22,"beat":"DEMO_FS","sub":"Ojo con esto: primero le damos el ejemplo."},
+    {"id":"18_fs_key2","src":"Pantalla","layout":"pip","start":222.80,"end":227.40,"beat":"DEMO_FS","sub":"Apoyado con ese ejemplo, el resultado se potencia muchisimo mas."},
+    {"id":"19_fs_result","src":"Pantalla","layout":"pip","start":231.44,"end":238.50,"beat":"DEMO_FS","sub":"Hey Daniela, como vas? Quede pensando en lo que me contaste de que el equipo pierde varias horas al dia con correos repetitivos."},
+    {"id":"20_analysis","src":"Pantalla","layout":"pip","start":357.62,"end":382.30,"beat":"DEMO_PAYOFF","sub":"Mira la diferencia. Ahora si suena a mi, mucho mas humano. Tomo mi saludo informal, engancho con lo que habiamos hablado y aporto valor en vez de presionar. No le explique nada con palabras: solo le mostre un ejemplo y replico la forma. Eso es few-shot."},
+    {"id":"21_when_use_a","src":"Cam","layout":"full","start":753.13,"end":760.21,"beat":"WHEN_USE","sub":"Entonces, cuando vale la pena el few-shot? Cuando la forma importa y se repite."},
+    {"id":"22_when_use_b","src":"Cam","layout":"full","start":760.77,"end":771.60,"beat":"WHEN_USE","sub":"Un formato fijo, un estilo personal, una estructura de salida consistente para varios casos."},
+    {"id":"23_when_not_a","src":"Cam","layout":"full","start":843.00,"end":852.15,"beat":"WHEN_NOT","sub":"Y cuando no? Cuando la tarea es simple y con un pedido directo basta."},
+    {"id":"24_when_not_b","src":"Cam","layout":"full","start":860.09,"end":873.93,"beat":"WHEN_NOT","sub":"Meter ejemplos muy largos en una tarea sencilla solo va a llenar tu mesa de trabajo. Si zero-shot te resuelve la tarea, no te compliques."},
+    {"id":"25_outro_a","src":"Cam","layout":"full","start":888.87,"end":903.45,"beat":"OUTRO","sub":"Ya tienes tres tecnicas: pedir directo, asignar rol y ensenar con ejemplos. Pero falta la mas famosa y la mas malentendida: pedirle a la IA que razone, que piense paso a paso."},
+    {"id":"26_outro_b","src":"Cam","layout":"full","start":934.90,"end":939.77,"beat":"OUTRO","sub":"Y eso lo cambia absolutamente todo. En el siguiente video lo vamos a ver en accion. Nos vemos ahi."}
+  ]
+}

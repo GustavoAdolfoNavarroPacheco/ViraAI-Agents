@@ -1,0 +1,8 @@
+
+## Session — 2026-06-26 — PromptEngineering V10 (few-shot) dual-source YouTube long-form
+
+**Strategy:** Dual-source edit. Cam (942s) = presenter raw take w/ many retakes; Pantalla (584s) = ChatGPT demo screen w/ its own clean audio. Picked cleanest retake of each beat, compressed ~10min usable -> 3:57. Explanation beats use Cam full-frame (own audio); demo beats use Pantalla as full-frame background + Cam composited as face-PiP. Each segment carries its own synced audio -> no cross-source audio drift.
+**Sync:** Pantalla_time + 361.4 = Cam_time, found by matching identical phrases across both transcripts ("Escribeme un mensaje..." Cam 369.88 / Pan 8.42; "Esta bien escrito..." Cam 402.04 / Pan 40.60). Sub-second drift, invisible for a face PiP.
+**Pipeline:** edl.json (26 segs) -> build.py (per-seg QSV extract + grade + logo + PiP, lossless concat) -> base.mp4 -> make_ass.py (184 dynamic Nebula cues on output timeline) -> ffmpeg loudnorm + ass-burn (last) -> final. h264_qsv worked throughout.
+**Decisions:** PiP bottom-center-right (x877,y758), cam zoomed 1.25x to face, 3px MARCA border. Subtitles raised to MarginV=350 (lower-third ~y700) to clear the PiP; Impact at top-center an8; Highlight MARCA purple + white outline inline. Grade neutral_punch (eq contrast/sat). Output -14.7 LUFS.
+**Outstanding / v2:** Poppins NOT installed (Arial fallback) -> install Poppins for brand-correct type. Could add section title cards + a subtle zoom on a couple of static explanation beats. Demo captions slightly redundant w/ on-screen text — could thin them. base.mp4 + seg_*.mp4 kept in pe_final/ for iteration.

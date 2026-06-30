@@ -1,0 +1,1 @@
+﻿- [OpenAI NEBULA Prompting](openai_nebula_prompting.md) — Regla vigente: VIRA IMG genera assets solo con OpenAI / ChatGPT Images usando visual-style.md.

@@ -1,0 +1,6 @@
+file 'C:/Users/adolf/OneDrive/Documents/Agente AI - Claude/videos/edit/pe_final/seg_21_when_use_a.mp4'
+file 'C:/Users/adolf/OneDrive/Documents/Agente AI - Claude/videos/edit/pe_final/seg_22_when_use_b.mp4'
+file 'C:/Users/adolf/OneDrive/Documents/Agente AI - Claude/videos/edit/pe_final/seg_23_when_not_a.mp4'
+file 'C:/Users/adolf/OneDrive/Documents/Agente AI - Claude/videos/edit/pe_final/seg_24_when_not_b.mp4'
+file 'C:/Users/adolf/OneDrive/Documents/Agente AI - Claude/videos/edit/pe_final/seg_25_outro_a.mp4'
+file 'C:/Users/adolf/OneDrive/Documents/Agente AI - Claude/videos/edit/pe_final/seg_26_outro_b.mp4'

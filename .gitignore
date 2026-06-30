@@ -1,0 +1,13 @@
+.env
+*.env
+__pycache__/
+*.pyc
+videos/*.mp4
+videos/**/*.mp4
+videos/**/seg_*.mp4
+videos/**/base*.mp4
+videos/**/frame*.jpg
+videos/**/eval/*.jpg
+output/videos_output/*.mp4
+output/video_output/*.mp4
+archive/**/*.mp4

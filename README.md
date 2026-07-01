@@ -449,7 +449,7 @@ VIRA AI cuenta con un sistema de memoria de **3 capas**:
 | **FFmpeg** | Instalado localmente. Requerido por VIRA Video Editor para procesamiento de video. |
 | **Git** | Para control de versiones del workspace. |
 | **Python** | Para ejecución de scripts en `tools/` (generación de flyers). |
-| **video-use** | Repositorio externo (`github.com/browser-use/video-use`) clonado en `C:\Users\adolf\Developer\video-use`. Toolchain de edición de video usado por VIRA Video Editor. |
+| **video-use** | Repositorio externo (`github.com/browser-use/video-use`) clonado en la ruta definida en `$env:VIDEO_USE_DIR`. Ver `SETUP.md` para instrucciones de instalación. |
 
 ---
 

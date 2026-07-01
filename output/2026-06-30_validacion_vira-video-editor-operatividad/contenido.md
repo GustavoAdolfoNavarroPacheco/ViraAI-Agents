@@ -9,7 +9,7 @@ Si, Codex puede poner a funcionar el agente `vira-video-editor` en este workspac
 
 El entorno base existe y esta razonablemente listo:
 
-- Repo externo `video-use`: disponible en `C:\Users\adolf\Developer\video-use`.
+- Repo externo `video-use`: disponible en `$env:VIDEO_USE_DIR`.
 - Helpers requeridos: `transcribe.py`, `pack_transcripts.py`, `render.py`, `grade.py`, `timeline_view.py` disponibles.
 - `uv`: disponible y funcional fuera del sandbox.
 - FFmpeg: disponible y funcional fuera del sandbox.
@@ -25,9 +25,9 @@ El entorno base existe y esta razonablemente listo:
 
 Confirmado:
 
-- `C:\Users\adolf\Developer\video-use`
-- `C:\Users\adolf\Developer\video-use\helpers`
-- `C:\Users\adolf\Developer\video-use\.env`
+- `$env:VIDEO_USE_DIR`
+- `$env:VIDEO_USE_DIR\helpers`
+- `$env:VIDEO_USE_DIR\.env`
 - `context/img-creator/ia-academy-logo.png`
 - `C:\Temp`
 

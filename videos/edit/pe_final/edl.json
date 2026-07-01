@@ -7,10 +7,10 @@
   "grade": "neutral_punch",
   "loudnorm": "I=-14:TP=-1:LRA=11",
   "sources": {
-    "Cam": "C:/Users/adolf/OneDrive/Documents/Agente AI - Claude/videos/PromptEngineering Video 10 Cam.mp4",
-    "Pantalla": "C:/Users/adolf/OneDrive/Documents/Agente AI - Claude/videos/PromptEngineering Video 10 Pantalla.mp4"
+    "Cam": "videos/PromptEngineering Video 10 Cam.mp4",
+    "Pantalla": "videos/PromptEngineering Video 10 Pantalla.mp4"
   },
-  "logo": "C:/Users/adolf/OneDrive/Documents/Agente AI - Claude/context/img-creator/ia-academy-logo.png",
+  "logo": "context/img-creator/ia-academy-logo.png",
   "segments": [
     {"id":"01_promise","src":"Cam","layout":"full","start":19.20,"end":26.00,"beat":"HOOK","sub":"Y hoy vamos a cumplir esa promesa y le vamos a poner un nombre tecnico como debe ser: few-shot."},
     {"id":"02_analogy","src":"Cam","layout":"full","start":34.10,"end":44.50,"beat":"WHY","sub":"Como le describes a alguien tu estilo de escribir? Es complejo. Pero si le muestras un ejemplo, lo entiende en un segundo. Con la IA pasa exactamente lo mismo."},

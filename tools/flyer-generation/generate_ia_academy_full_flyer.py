@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import math
 
 
-ROOT = Path(r"C:\Users\adolf\OneDrive\Documents\Agente AI - Claude")
+ROOT = Path(__file__).resolve().parent.parent.parent
 OUT = ROOT / "output" / "flyer-completo-ia-academy-2026-06-25.png"
 LOGO = ROOT / "context" / "img-creator" / "ia-academy-logo.png"
 HERO = ROOT / "output" / "ia-academy-hero-2026-06-24.png"

@@ -87,7 +87,7 @@ Archivos afectados:
 - `.claude/agents/vira-video-editor.md`
 
 Problemas:
-- Dependen de `C:\Users\adolf\Developer\video-use`.
+- Dependen de `$env:VIDEO_USE_DIR`.
 - Guardan memoria tecnica fuera del workspace.
 - Referencian rutas absolutas de FFmpeg, logo y toolchain.
 - Chocan con la regla de memoria que pide rutas relativas dentro del proyecto, salvo integraciones muy controladas.

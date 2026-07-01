@@ -1,6 +1,6 @@
 # MEMORY.md — VIRA Video Editor
 
-> Memoria de proyecto VIRA AI (Agente AI - Claude). Para memoria técnica del toolchain, ver `C:\Users\adolf\Developer\video-use\.claude\agent-memory\vira-video-editor\`.
+> Memoria de proyecto VIRA AI (Agente AI - Claude). Toda la memoria del agente se consolida en `.claude/agent-memory/vira-video-editor/` (relativa a la raíz del proyecto).
 
 ## Sesiones de edición completadas
 

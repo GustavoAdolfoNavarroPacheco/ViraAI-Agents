@@ -11,7 +11,7 @@ Esta excepcion aplica solo al agente de video. Los demas agentes deben seguir us
 
 ## Rutas Permitidas Para VIRA Video Editor
 
-- Toolchain externo: `C:\Users\adolf\Developer\video-use`
+- Toolchain externo: `$env:VIDEO_USE_DIR` (ver `SETUP.md` para configuración)
 - FFmpeg local: ruta configurada en `.claude/agents/vira-video-editor.md` y `.codex/agents/vira-video-editor.toml`
 - Logo oficial usado en renders: `context/img-creator/ia-academy-logo.png`
 - Salida final dentro de este workspace: `output/videos_output/`
